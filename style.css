@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box; 
+}
+
+*, *::before, *::after {
+    box-sizing: inherit; 
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden; 
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 3px solid #0779e4;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #0779e4;
+    transition: background-color 0.3s;
+}
+
+#about, #portfolio, #experience, #contact {
+    padding: 20px 0;
+}
+
+#about h2, #portfolio h2, #experience h2, #contact h2, footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.experience-item, .portfolio-item, footer {
+    margin-bottom: 20px;
+}
+
+.experience-item ul, #contact ul, .portfolio-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.experience-item ul li, #contact ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    position: relative; 
+    width: 100%;
+}
